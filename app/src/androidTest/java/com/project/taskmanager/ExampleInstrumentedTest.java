@@ -1,4 +1,4 @@
-package com.example.taskmanager;
+package com.project.taskmanager;
 
 import android.content.Context;
 

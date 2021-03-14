@@ -1,10 +1,10 @@
-package com.example.taskmanager;
-
-import androidx.appcompat.app.AppCompatActivity;
+package com.project.taskmanager;
 
 import android.os.Bundle;
 
-public class MainActivity extends AppCompatActivity {
+import androidx.appcompat.app.AppCompatActivity;
+
+public class TasksView extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

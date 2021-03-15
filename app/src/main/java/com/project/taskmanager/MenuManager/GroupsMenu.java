@@ -1,10 +1,12 @@
-package com.project.taskmanager;
-
-import android.os.Bundle;
+package com.project.taskmanager.MenuManager;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-public class TasksView extends AppCompatActivity {
+import android.os.Bundle;
+
+import com.project.taskmanager.R;
+
+public class GroupsMenu extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

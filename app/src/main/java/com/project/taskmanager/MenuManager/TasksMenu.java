@@ -1,10 +1,12 @@
-package com.project.taskmanager;
-
-import androidx.appcompat.app.AppCompatActivity;
+package com.project.taskmanager.MenuManager;
 
 import android.os.Bundle;
 
-public class GroupeView extends AppCompatActivity {
+import androidx.appcompat.app.AppCompatActivity;
+
+import com.project.taskmanager.R;
+
+public class TasksMenu extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

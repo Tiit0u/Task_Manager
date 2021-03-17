@@ -1,9 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
+    android:layout_width="@dimen/group_item_size"
+    android:layout_height="@dimen/group_item_size"
     android:layout_centerInParent="true"
-    android:background="@drawable/layout_rounded_corner">
+    android:background="@drawable/layout_rounded_corner"
+    android:padding="10dp">
+
+    <ImageView
+        android:id="@+id/groupImage"
+        android:src="@mipmap/icon"
+
+        android:layout_width="@dimen/image_menu_size"
+        android:layout_height="@dimen/image_menu_size"
+
+        android:layout_centerInParent="true"/>
 
     <TextView
         android:id="@+id/group_name"
@@ -14,18 +24,7 @@
         android:layout_centerInParent="true"
 
         android:text="@string/group_name"
-        android:textSize="20sp"
-
-        />
-
-    <ImageView
-        android:id="@+id/groupImage"
-        android:src="@mipmap/icon"
-
-        android:layout_width="60dp"
-        android:layout_height="60dp"
-
-        android:layout_centerInParent="true"/>
+        android:textSize="20sp"/>
 
 
 </RelativeLayout>

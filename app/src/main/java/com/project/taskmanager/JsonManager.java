@@ -25,15 +25,15 @@ public class JsonManager {
     public void addSubTaskInTaskInJson(String groupName, String taskName, String newSubTaskName) {
 
     }
-    public void getGroupInJson() {
+    public void getGroupsInJson() {
 
     }
 
-    public void getTaskInGroupInJson(String groupName) {
+    public void getTasksInGroupInJson(String groupName) {
 
     }
 
-    public void getSubTaskInTaskInJson(String groupName, String taskName) {
+    public void getSubTasksInTaskInJson(String groupName, String taskName) {
 
     }
 }

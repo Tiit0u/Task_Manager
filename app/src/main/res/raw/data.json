@@ -1,0 +1,26 @@
+{"nameGroup":[
+  {"groupName":"testGoupName1",
+    "description":"BlablablaGroup",
+    "tasks":
+    [
+      {"taskName":"testTaskName1",
+        "description":"BlablablaTask",
+        "subTasks":
+        [
+          {"subTasksName":"testSubTaskName1",
+          "description":"BlablablaSubTask"}
+        ]
+      },
+      {"taskName":"testTaskName2",
+        "description":"BlablablaTask",
+        "subTasks":
+        [
+          {"subTasksName":"testSubTaskName2",
+          "description":"BlablablaSubTask"}
+        ]
+      }
+    ]
+  }
+],
+  "garbageGroup":[]
+}

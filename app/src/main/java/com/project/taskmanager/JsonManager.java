@@ -5,7 +5,6 @@ public class JsonManager {
     private String JsonPath = "";
 
     private void openJson(){
-        // JSONParser parser = new JSONParser();
         /*try
         {
 
